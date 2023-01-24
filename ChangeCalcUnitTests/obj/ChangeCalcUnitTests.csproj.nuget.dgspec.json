@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalcUnitTests\\ChangeCalcUnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator.csproj",
+        "projectName": "ChangeCalculator",
+        "projectPath": "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator.csproj",
+        "packagesPath": "C:\\Users\\Rama\\.nuget\\packages\\",
+        "outputPath": "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalcUnitTests\\ChangeCalcUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalcUnitTests\\ChangeCalcUnitTests.csproj",
+        "projectName": "ChangeCalcUnitTests",
+        "projectPath": "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalcUnitTests\\ChangeCalcUnitTests.csproj",
+        "packagesPath": "C:\\Users\\Rama\\.nuget\\packages\\",
+        "outputPath": "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalcUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator.csproj": {
+                "projectPath": "C:\\Sai\\24Jan23_Review\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator\\ChangeCalculator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.4.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
